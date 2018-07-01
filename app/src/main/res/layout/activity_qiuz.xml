@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".QiuzActivity">
+
+   <RelativeLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginBottom="40dp"
+       android:padding="8dp">
+
+      <TextView
+          android:id="@+id/score_text"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_alignParentLeft="true"
+          android:text="score"
+          android:textSize="20sp" />
+
+      <TextView
+          android:id="@+id/score"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignParentRight="true"
+          android:text="0"
+          android:textSize="20sp" />
+
+      <TextView
+          android:id="@+id/question"
+          android:layout_width="match_parent"
+          android:layout_height="70dp"
+          android:layout_alignParentLeft="true"
+          android:layout_alignParentStart="true"
+          android:layout_below="@+id/score_text"
+          android:layout_marginTop="40dp"
+          android:padding="8dp"
+          android:text="Android Studio apps are written in:"
+          android:textSize="20sp" />
+
+
+   </RelativeLayout>
+
+   <Button
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="javaScript"
+       android:background="#0091ea"
+       android:textColor="#fff"
+       android:padding="8dp"
+       android:layout_marginBottom="10dp"
+       android:id="@+id/choice1"/>
+   <Button
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="Python"
+       android:padding="8dp"
+       android:layout_marginBottom="10dp"
+       android:background="#0091ea"
+       android:textColor="#fff"
+       android:id="@+id/choice2"/>
+   <Button
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="Swift"
+       android:padding="8dp"
+       android:layout_marginBottom="10dp"
+       android:background="#0091ea"
+       android:textColor="#fff"
+       android:id="@+id/choice3"/>
+   <Button
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="Quit"
+       android:padding="8dp"
+       android:layout_marginBottom="10dp"
+       android:background="#b71c1c"
+       android:textColor="#fff"
+       android:id="@+id/choice4"/>
+
+</LinearLayout>
